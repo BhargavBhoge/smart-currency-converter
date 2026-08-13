@@ -1,0 +1,45 @@
+# ==========================================================
+# Currency Converter - Python Dependencies
+# ==========================================================
+#
+# Project: Currency Converter
+# Technology: Python + Streamlit
+# Purpose: Convert currencies using exchange rates from an API
+#
+# Install all dependencies using:
+# pip install -r requirements.txt
+#
+# Run the application using:
+# streamlit run app.py
+#
+# ==========================================================
+
+
+# ----------------------------------------------------------
+# Streamlit
+# ----------------------------------------------------------
+# Used to create the web application interface.
+# Provides:
+# - Sidebar
+# - Buttons
+# - Select boxes
+# - Number inputs
+# - Metrics
+# - Alerts
+# - Custom HTML/CSS
+#
+streamlit==1.48.0
+
+
+# ----------------------------------------------------------
+# Requests
+# ----------------------------------------------------------
+# Used to send HTTP requests to the currency exchange
+# rate API and receive exchange-rate data in JSON format.
+#
+requests==2.32.4
+
+
+# ==========================================================
+# END OF REQUIREMENTS
+# ==========================================================
